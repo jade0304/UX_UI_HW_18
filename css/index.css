@@ -1,0 +1,93 @@
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.logo {
+    width: 23%;
+    padding-left: 15%;
+    text-align: center;
+}
+
+.logo img {
+    width: 67px;
+}
+
+nav {
+    width: 100%;
+    padding: 1%;
+}
+
+ul {
+    width: 50%;
+    margin-left: auto;
+}
+
+li {
+    padding-left: 30px;
+}
+
+.heroImg {
+    max-width: 900px;
+    padding: 25px;
+    outline: 2px solid red;
+    margin: auto;
+}
+
+.content {
+    display: flex;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.content img {
+    width: 300px;
+}
+
+footer {
+    padding: 20px;
+}
+
+footer ul {
+    display: inline-block;
+    vertical-align: top;
+}
+
+h3 {
+    outline: 2px solid blue;
+    max-width: 900px;
+    margin: auto;
+}
+
+.workGrid button {
+    outline: 2px solid blue;
+    padding: 10px;
+}
+
+.workGrid {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 25% 25% 25% 25%; 
+    grid-gap: 10px;
+    outline: 2px solid red;
+    max-width: 900px;
+    margin: auto;
+    padding: 10px;
+}
+
+.gridContainer {
+    display: grid;
+    outline: 2px solid purple;
+    height: 344px;
+    width: 400px;
+    grid-template-areas: projectArea projectArea projectArea;
+}
+
+.rowItem .gridArea {
+    grid-area: projectArea;
+}
+
+.project1 {
+    grid-area: 1 / 1 / span 1 / span 3;
+    outline: 2px solid salmon;
+}
