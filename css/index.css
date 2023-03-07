@@ -121,3 +121,22 @@ padding: 10px;
     grid-area: project3Img;
 }
 
+@media only screen and (max-width: 600) {
+    width: 100%;
+    .workGrid {
+        display: grid;
+        grid-template-columns: 315px;
+        grid-auto-rows: 315px;
+        grid-gap: 20px;
+        grid-template-areas: 
+        "project1"
+        "project1Img"
+        "project2"
+        "project2Img"
+        "project3"
+        "project3Img";
+        outline: 2px solid red;
+        max-width: 900px;
+        margin: auto;
+    }
+}
