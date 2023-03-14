@@ -150,6 +150,12 @@ padding: 10px;
 }
 
 @media only screen and (max-width: 600px) {
+    .heroImg {
+        padding-left: 20px;
+        width: 550px;
+        margin: auto;
+    }
+
     .workGrid {
         display: grid;
         grid-template-columns: 315px;
@@ -165,6 +171,12 @@ padding: 10px;
         max-width: 900px;
         margin: auto;
     }
+
+    .gridContainerItem1, .gridContainerItem3, .gridContainerItem5 {
+        width: 500px;
+    }
+
+
 }
 
 .subscriptionSaver {
