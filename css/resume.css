@@ -1,19 +1,22 @@
 .experiences {
     max-width: 900px;
-    outline: 2px solid red;
     margin: auto;
 }
 
 .aboutSDN {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 440px 440px;
+    grid-auto-rows: 315px;
+    grid-gap: 20px;
+    grid-template-areas: 
+    "project1 project1Img"
+    width: 900px;
     
 }
 
 .recent {
     display: flex;
     flex-direction: column;
-    outline: 2px solid red;
 }
 
 .resume {
@@ -24,7 +27,6 @@
 .flex {
     display: flex;
     padding: 10px;
-    outline: 2px solid green;
     
 
 }
@@ -33,18 +35,15 @@
     display: flex;
     padding: 20px;
     margin: auto;
-    outline: 2px solid red;
     max-width: 900px;
 }
 
 h3 {
-    outline: 2px solid blue;
     margin: auto;
     max-width: 900px;
 }
 
 .skillCard {
-    outline: 2px solid purple;
     padding: 20px;
 
     width 33%
