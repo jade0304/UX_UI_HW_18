@@ -10,14 +10,21 @@
     grid-gap: 20px;
     grid-template-areas: 
     "project1 project1Img"
-    width: 900px;
-    
+    width: 900px;   
+}
+
+.aboutSDN img {
+    width: 300px;
+    border-radius: 50%;
+    border: 18px solid #F69A7E;
+
 }
 
 .recent {
-    display: flex;
-    flex-direction: column;
+    text-align: left;
 }
+
+
 
 .resume {
     display: block;
@@ -31,8 +38,9 @@
 
 }
 
-.flexContainer {
-    display: flex;
+.gridContainer {
+    display: grid;
+    grid-template-columns: 440px 440px;
     padding: 20px;
     margin: auto;
     max-width: 900px;
